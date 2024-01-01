@@ -17,8 +17,8 @@ for ele in inputs:
             set.append(nums.index(num))
             continue
     print(set)
-    if len(set) == 1:
-        set.append(set[0])
+    # if len(set) == 1:
+    #     set.append(set[0])
     integers.append(set)
     
     set = []
@@ -27,4 +27,4 @@ print(integers)
 #     for line in inputs:
 #         if ele in line:
 #             print(ele)
-print("eles NOT IN CORRECT ORDER YET")
+print("eles NOT IN CORRECT ORDER YET and haven't accounted for numbers as actual digits yet")
